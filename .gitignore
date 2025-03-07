@@ -97,6 +97,7 @@ StyleCopReport.xml
 *.vssscc
 .builds
 *.pidb
+*.log
 *.svclog
 *.scc
 
@@ -232,7 +233,11 @@ _pkginfo.txt
 !?*.[Cc]ache/
 
 # Others
+sql/
+*.Cache
 ClientBin/
+[Ss]tyle[Cc]op.*
+![Ss]tyle[Cc]op.targets
 ~$*
 *~
 *.dbmdl
